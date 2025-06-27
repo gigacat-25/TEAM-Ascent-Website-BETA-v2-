@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Ascent Club. All rights reserved.
+            This website is made with a lot of dedication and love.If you try to copy anything from this website we will hunt you down.We mean it ! . All rights reserved © 2025 Ascent Club. All rights reserved.
             </div>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">

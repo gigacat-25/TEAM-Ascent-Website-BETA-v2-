@@ -5,32 +5,23 @@ import { Calendar, Clock, MapPin, Users } from 'lucide-react';
 const Events = () => {
   const events = [
     {
-      title: "Title here ",
-      date: "datae here ",
-      time: "48 Hours",
-      location: "Virtual Event",
+      title: "Ascent Selection",
+      date: "Updated through messages ",
+      time: "2 Hours",
+      location: "Impact Collage of enginering",
       description: "Join us for our flagship hackathon event where teams compete to build innovative solutions.",
       participants: "200+ Participants",
       image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1000"
     },
     {
-      title: "title here ",
-      date: "April 5, 2024",
-      time: "2:00 PM - 5:00 PM",
-      location: "Tech Hub",
-      description: "Learn about blockchain, smart contracts, and the future of web development.",
-      participants: "50 Seats",
-      image: "https://images.unsplash.com/photo-1591267990532-e5bdb1b0ceb8?auto=format&fit=crop&q=80&w=1000"
-    },
-    {
-      title: "title here ",
-      date: "May 1-3, 2024",
-      time: "9:00 AM - 4:00 PM",
-      location: "Innovation Center",
-      description: "Intensive training on machine learning algorithms and artificial intelligence applications.",
-      participants: "100 Seats",
-      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=1000"
-    }
+      title: "Event Opening",
+      date: "March 17, 2025",
+      time: "09:00 AM - 04:00 PM",
+      location: "Impact college of Engineering and applied Science",
+      description: "Club Inaugration",
+      participants: "Team Ascent",
+      image: "https://plus.unsplash.com/premium_photo-1680700308566-543a60569017?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
   ];
 
   return (
@@ -86,7 +77,9 @@ const Events = () => {
                     <span>{event.participants}</span>
                   </div>
                 </div>
-                <button className="btn-primary w-full mt-6">Register Now</button>
+                <a href="https://forms.gle/c9UyGRunfXAHyBDa6" target="_blank" rel="noopener noreferrer">
+                  <button className="btn-primary w-full mt-6">Register Now</button>
+                </a>
               </div>
             </motion.div>
           ))}

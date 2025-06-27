@@ -29,7 +29,7 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent"
           >
-            Welcome to Ascent Club
+            Ascent
           </motion.h1>
 
           <motion.p

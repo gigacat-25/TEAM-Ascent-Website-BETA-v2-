@@ -1,14 +1,27 @@
 import React from 'react';
+import aman from "./images/aman.jpg";
+import muneem from "./images/abdul.jpeg"
+import parameshwaran from "./images/par5.jpg"
+import poornesh from "./images/pornesh.jpg"
+import tej from "./images/tej.jpg"
+import joy from "./images/joy.jpg"
+import sajida from "./images/Sajida Tabassum.jpg"
+import sauwam from "./images/sauwam1.jpg"
+import gajana from "./images/gajana.jpg"
+import akshat from "./images/akshath.jpeg"
+import sir1 from "./images/ashwath.jpg"
+import sir2 from "./images/balu.jpg"
+import mam from "./images/nazneen.jpg"
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail } from 'lucide-react';
 
 const PanelMembers = () => {
   const members = [
     {
-      name: "Aman M B ",
-      role: "President",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400",
-      bio: "AI enthusiast and full-stack developer with a passion for building scalable solutions.",
+      name: "Ashwath Narayan",
+      role: "Faculty",
+      image: sir1,
+      bio: "HOD of Mechanical engineering department",
       social: {
         github: "https://github.com",
         linkedin: "https://linkedin.com",
@@ -16,43 +29,76 @@ const PanelMembers = () => {
       }
     },
     {
+      name: "Balasubramanyam",
+      role: "Faculty",
+      image: sir2,
+      bio: "Asst Professor in Mechanincal Engineering department",
+      social: {
+        github: "https://github.com",
+        linkedin: "https://linkedin.com",
+        email: "mailto:sarah@example.com"
+      }
+    },
+    {
+      name: "Nazneen",
+      role: "Chief Advisor and Placement Officer",
+      image: mam,
+      bio: "Connecting talent with opportunities through guidance, mentorship, and industry partnerships. ",
+      social: {
+        github: "https://github.com",
+        linkedin: "https://linkedin.com",
+        email: "mailto:sarah@example.com"
+      }
+    },
+    {
+      name: "Aman M B ",
+      role: "President",
+      image: aman,
+      bio: "Aspiring Data Scientist | Tech & Space Enthusiast.",
+      social: {
+        github: "https://github.com/amxncore",
+        linkedin: "https://www.linkedin.com/in/amanmb/",
+        email: "amanmuttilara@gmail.com"
+      }
+    },
+    {
       name: "Abdul Muneem ",
       role: "Secretary",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400",
-      bio: "Blockchain developer and cybersecurity expert focusing on decentralized systems.",
+      image: muneem,
+      bio: "I’m an intermediate Python and C++ developer with experience in machine learning, web development, and CNC programming. I’m currently building an AI-powered cricket scoring site and an e-commerce platform for a pickle brand. Beyond coding, I lead the ASCENT Club, organize tech events, and plan collaborations for hackathons and job training.",
       social: {
         github: "https://github.com",
-        linkedin: "https://linkedin.com",
-        email: "mailto:james@example.com"
+        linkedin: "https://www.linkedin.com/in/abdul-muneem-197956278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "Abdul.23am001@iceas.ac.in"
       }
     },
     {
-      name: "Emily Rodriguez",
+      name: "Thejaswin P",
       role: "Technical Lead",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400",
-      bio: "Cloud architecture specialist with extensive experience in AWS and Azure.",
+      image: tej,
+      bio: "Passionate about tech, I specialize in optimizing networks, keeping servers stable, and making cloud services smarter. Whether it’s building rock-solid infrastructure or reducing latency, I’m always up for the challenge. When I’m not fine-tuning connections, I’m piloting FPV drones—soaring, crashing, and always learning.",
       social: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
-        email: "mailto:emily@example.com"
+        github: "https://github.com/gigacat-25",
+        linkedin: "https://www.linkedin.com/in/thejaswin-p-68b11a334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "thejaswinp6@gmail.com"
       }
     },
     {
-      name: "Michael Chang",
-      role: "Events Coordinator",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400",
-      bio: "Community builder and full-stack developer passionate about educational tech.",
+      name: "Parameshwaran Udayar",
+      role: "Technical Lead",
+      image: parameshwaran,
+      bio: "Passionate about AI and web development, I focus on building impactful projects and enhancing technical skills. As the Tech Lead of ASCENT, my college’s technical club, I contribute to technical initiatives, explore emerging technologies, and mentor peers to foster innovation.",
       social: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
-        email: "mailto:michael@example.com"
+        github: "https://github.com/Parameshwaran2005",
+        linkedin: "https://www.linkedin.com/in/parameshwaran-udayar/",
+        email: "parameshwareshwar81@gmail.com"
       }
     },
     {
-      name: "Sophia Lee",
-      role: "Marketing Lead",
-      image: "https://images.unsplash.com/photo-1530178723480-87e14ec9a248?auto=format&fit=crop&q=80&w=400",
-      bio: "Digital marketing strategist with a focus on user engagement and brand growth.",
+      name: "Poornesh G",
+      role: "Technical Lead",
+      image: poornesh,
+      bio: "Passionate about problem-solving and technology, I started with Python, HTML, and CSS. Aspiring for a top tech role, I focus on continuous learning, networking, and growth.",
       social: {
         github: "https://github.com",
         linkedin: "https://linkedin.com",
@@ -60,21 +106,21 @@ const PanelMembers = () => {
       }
     },
     {
-      name: "Daniel Kim",
-      role: "Designer",
-      image: "https://images.unsplash.com/photo-1501606178152-4b8c5c3d35d5?auto=format&fit=crop&q=80&w=400",
-      bio: "UX/UI designer with an eye for intuitive and aesthetically pleasing designs.",
+      name: "Sauwam",
+      role: "Event Coordinators",
+      image: sauwam,
+      bio: "Hey everyone! I'm an event manager at The Ascent, passionate about organizing experiences that bring people together. I also love coding, with basic skills in Python and C++. Always eager to learn, grow, and take on new challenges. Excited to connect and collaborate!",
       social: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
+        github: "https://github.com/Mohammedsauwam7",
+        linkedin: "https://www.linkedin.com/in/mohammed-sauwam-b699b1315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "mailto:daniel@example.com"
       }
     },
     {
-      name: "Olivia Zhang",
-      role: "Data Analyst",
-      image: "https://images.unsplash.com/photo-1504784164053-15b85c5fd59b?auto=format&fit=crop&q=80&w=400",
-      bio: "Data scientist passionate about extracting insights from complex datasets.",
+      name: "Sajida",
+      role: "Event Coordinators",
+      image: sajida,
+      bio: "Hey everyone! I'm an event manager at The Ascent, passionate about organizing experiences that bring people together. I also love coding, with basic skills in Python and C++. Always eager to learn, grow, and take on new challenges. Excited to connect and collaborate!",
       social: {
         github: "https://github.com",
         linkedin: "https://linkedin.com",
@@ -82,38 +128,41 @@ const PanelMembers = () => {
       }
     },
     {
-      name: "Ethan Patel",
-      role: "DevOps Lead",
-      image: "https://images.unsplash.com/photo-1509494899179-bb7e2dfeee62?auto=format&fit=crop&q=80&w=400",
-      bio: "DevOps engineer with a deep understanding of CI/CD pipelines and cloud infrastructure.",
+      name: "Gajanana",
+      role: "Event Coordinators",
+      image: gajana,
+      bio: "Driven by logic, problem-solving, and a passion for technology, I began my journey with Python, HTML, and CSS, quickly developing a structured approach to tackling challenges. Aspiring to secure a high-paying role at a top company, I am committed to continuous learning, networking, and making meaningful contributions in the tech industry.",
       social: {
         github: "https://github.com",
-        linkedin: "https://linkedin.com",
-        email: "mailto:ethan@example.com"
+        linkedin: "https://www.linkedin.com/in/gajanana-h-pujar-265b9b2a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "gajananas536@gmail.com"
       }
     },
     {
-      name: "Charlotte Moore",
-      role: "Product Manager",
-      image: "https://images.unsplash.com/photo-1524231183779-7025b998b78d?auto=format&fit=crop&q=80&w=400",
-      bio: "Product strategist with a passion for creating user-centric products and experiences.",
+      name: "Akshat Sinha",
+      role: "Treasurer",
+      image: akshat,
+      bio: "I handle the financial management and budgeting, ensuring smooth and transparent fund allocation. With strong analytical skills and attention to detail, I strive to maintain financial stability and support the team's initiatives. Excited to contribute and collaborate effectively!",
       social: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
-        email: "mailto:charlotte@example.com"
+        github: "https://github.com/Akshat-21-hub",
+        linkedin: "https://www.linkedin.com/in/akshat-sinha-0618b5290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "Sinhaakshat1008@gmail.com"
       }
     },
     {
-      name: "Joshua Carter",
-      role: "Software Engineer",
-      image: "https://images.unsplash.com/photo-1514767637503-92bbf8770cc6?auto=format&fit=crop&q=80&w=400",
-      bio: "Software engineer with expertise in building scalable web applications and microservices.",
+      name: "Joy Palit",
+      role: "Volunteering Head",
+      image: joy,
+      bio: "I'm specializing in Artificial Intelligence and Machine Learning while also working as an offensive security specialist. My focus is on combining AI and cybersecurity to enhance security solutions and drive innovation.",
       social: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
-        email: "mailto:joshua@example.com"
+        github: "https://github.com/Rayz4010-",
+        linkedin: "https://www.linkedin.com/in/joy-palit-0207j/",
+        email: "rayquaza4010@icloud.com"
       }
-    }
+    },
+
+   
+    
   ];
 
   return (
